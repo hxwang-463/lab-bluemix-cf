@@ -19,7 +19,7 @@ spec:
       restartPolicy: Always
       containers:
       - name: lab-bluemix-cf
-        image: us.icr.io/nyu_devops/lab-bluemix-cf:1.0
+        image: us.icr.io/hw2544/lab-bluemix-cf:1.0
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
